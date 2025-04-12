@@ -48,7 +48,7 @@ popd
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression "Starting $app's systemd service..."
+#ynh_script_progression "Starting $app's systemd service..."
 
 # Start a systemd service
 #ynh_systemctl --service="$app" --action="start"
