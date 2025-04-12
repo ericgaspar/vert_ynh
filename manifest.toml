@@ -13,10 +13,8 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0"
-website = "https://example.com"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+website = "https://vert.sh/"
+demo = "https://vert.sh/"
 code = "https://github.com/VERT-sh/VERT"
 
 [integration]
@@ -57,5 +55,3 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
-
-    #[resources.ports]
