@@ -48,8 +48,8 @@ ynh_config_add_nginx
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
-	ynh_hide_warnings ynh_exec_as_app npm install -g bun
- 	ynh_hide_warnings ynh_exec_as_app bun run build
+	ynh_hide_warnings npm install -g bun
+ 	ynh_hide_warnings bun run build
 popd
 
 #=================================================
